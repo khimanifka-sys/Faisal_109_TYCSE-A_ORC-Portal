@@ -1,4 +1,4 @@
-# 🎓 Online Result Checking System
+# 🎓 Online Result Portal
 
 A simple and efficient web-based Result Management System that allows students to securely view their examination results using their Roll Number and Date of Birth.  
 This project is developed as part of a DBMS laboratory assignment using PHP and MySQL.
