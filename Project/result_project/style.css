@@ -1,0 +1,312 @@
+/* ===========================================================
+   UNIVERSAL STYLES (APPLY TO ALL PAGES)
+=========================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* ===========================================================
+   LOGIN PAGE STYLES
+=========================================================== */
+
+.box {
+    background: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+}
+
+.box h2 {
+    text-align: center;
+    color: blue;
+}
+
+label {
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+/* ===========================================================
+   DASHBOARD PAGE (NO CHANGES — YOUR ORIGINAL DESIGN)
+=========================================================== */
+
+.topbar {
+    background: blue;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background: white;
+    padding: 15px;
+    border-right: 1px solid lightgray;
+    min-height: 600px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: blue;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar ul li a:hover {
+    color: blue;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Dashboard sections */
+.section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.section-title {
+    margin-top: 0;
+    color: darkblue;
+}
+
+.section-text {
+    font-size: 14px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: gray;
+}
+
+/* Quick action cards */
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background: lightblue;
+    width: 220px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.btn-small {
+    padding: 7px 12px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background: darkblue;
+}
+
+/* Simple table */
+.table-simple {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-simple th,
+.table-simple td {
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+.table-simple th {
+    background: lightblue;
+}
+
+/* Two columns layout */
+.two-columns {
+    display: flex;
+    gap: 15px;
+}
+
+.column {
+    flex: 1;
+}
+
+/* List items */
+.simple-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+/* Important links */
+.links-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.link-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    background: orange;
+    color: black;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.link-btn:hover {
+    background: darkorange;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
+
+/* ===========================================================
+   RESULT PAGE (SCOPED — DOES NOT AFFECT DASHBOARD)
+=========================================================== */
+
+body.result-page {
+    background: #f2f4f7;
+}
+
+/* Container */
+.result-page .result-container {
+    width: 65%;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.result-page .result-heading {
+    background: #004aad;
+    color: white;
+    padding: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Highlight Box */
+.result-page .highlight-box {
+    background: #004aad;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.result-page .highlight-value {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.result-page .highlight-label {
+    font-size: 18px;
+}
+
+.result-page .highlight-subtext {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Section title */
+.result-page .section-title {
+    font-size: 20px;
+    color: #004aad;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #004aad;
+    padding-bottom: 4px;
+}
+
+/* Info box */
+.result-page .info-box {
+    background: #eaf3ff;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Info rows */
+.result-page .info-row {
+    margin-bottom: 8px;
+}
+
+/* Footer note */
+.result-page .footer-note {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: gray;
+}
